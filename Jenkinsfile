@@ -2,7 +2,7 @@
 pipeline{
     agent {any}
     stages{
-        stage('Check Python Installation') {
+        stage('Check Python Innstallation') {
           steps {
             sh "python3 --version || echo 'Python is NOT installed!'"
         }
